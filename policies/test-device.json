@@ -1,1 +1,25 @@
+{
+  "version": 1,
+  "profileName": "כשר בסיסי",
 
+  "allowedApps": [
+    "com.waze"
+  ],
+
+  "blockedApps": [
+    "com.android.chrome"
+  ],
+
+  "restrictions": {
+    "BlockUnknownSources": true,
+    "BlockFactoryReset": true,
+    "BlockAddUser": false,
+    "BlockCamera": true
+  },
+
+  "active": true,
+
+  "affectedPackages": [
+    "com.android.chrome"
+  ]
+}
